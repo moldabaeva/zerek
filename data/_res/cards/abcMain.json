@@ -1,0 +1,22 @@
+﻿[{"db":"KZ_ABC","name":"KZ - Әліппе","desc":"Қазақ тілінің әліппесі","auth":"Zh.Moldabayeva","cnt":42,"icon":{"name":"icons/KZ_ABC.jpg","size":26694,"date":"20130627180624"}
+},{"db":"RU_ABC","name":"RU - Азбука","desc":"Алфавит русского языка","auth":"whisperarts.com","cnt":33,"icon":{"name":"icons/RU_ABC.png","size":12481,"date":"20130715135658"}
+},{"db":"EN_ABC","name":"EN - Primer","desc":"English alphabet","auth":"ABC for kids","cnt":26,"icon":{"name":"icons/EN_ABC.png","size":7697,"date":"20130715204728"}
+},{"db":"ES_ABC","name":"ES - ABC","desc":"Alfabeto español","auth":"ABC for kids","cnt":28,"icon":{"name":"icons/ES_ABC.jpg","size":781,"date":"20130630094844"}
+},{"db":"FR_ABC","name":"FR - ABC","desc":"Alfabeto francés","auth":"ABC for kids","cnt":26,"icon":{"name":"icons/FR_ABC.gif","size":234,"date":"20130630094950"}
+},{"db":"KZ_ASPAP","name":"Музыкалық аспаптар","desc":"Музыкалық аспаптар","auth":"Zh.Moldabayeva","cnt":10,"icon":{"name":"icons/KZ_ASPAP.jpg","size":4293,"date":"20130715205254"}
+},{"db":"KZ_COLOR","name":"Түстер","desc":"Түстер","auth":"Zh.Moldabayeva","cnt":11,"icon":{"name":"icons/KZ_COLOR.jpg","size":1893,"date":"20130715191356"}
+},{"db":"KZ_KIIM","name":"Ұлттық киімдер","desc":"Ұлттық киімдер","auth":"Zh.Moldabayeva","cnt":13,"icon":{"name":"icons/KZ_KIIM.jpg","size":26423,"date":"20130705174712"}
+},{"db":"KZ_NUMBER","name":"Сандар","desc":"Сандар","auth":"Zh.Moldabayeva","cnt":11,"icon":{"name":"icons/KZ_NUMBER.jpg","size":2157,"date":"20131124081312"}
+},{"db":"KZ_SHAPE","name":"Фигуралар","desc":"Фигуралар","auth":"Zh.Moldabayeva","cnt":7,"icon":{"name":"icons/KZ_SHAPE.jpg","size":1980,"date":"20130715184952"}
+},{"db":"RU_ANIMALS","name":"RU - Животные","desc":"Картинки животных","auth":"Little genius","cnt":15,"icon":{"name":"icons/RU_ANIMALS.jpeg","size":2971,"date":"20130715205144"}
+},{"db":"RU_CLOTHES","name":"RU - Одежда","desc":"Одежда","auth":"Little genius","cnt":12,"icon":{"name":"icons/RU_CLOTHES.jpg","size":1825,"date":"20130715185058"}
+},{"db":"RU_COLORS","name":"RU - Цвета","desc":"Цвета","auth":"Little genius","cnt":9,"icon":{"name":"icons/RU_COLORS.jpg","size":1341,"date":"20130704083938"}
+},{"db":"RU_ENVIRONMENT","name":"RU - Окружающая среда","desc":"Окружающая среда","auth":"Little genius","cnt":12,"icon":{"name":"icons/RU_ENVIRONMENT.jpg","size":10492,"date":"20130715204226"}
+},{"db":"RU_FAMILY","name":"RU - Семья","desc":"Семья","auth":"Little genius","cnt":8,"icon":{"name":"icons/RU_FAMILY.jpg","size":3384,"date":"20130715184714"}
+},{"db":"RU_FOOD","name":"RU - Продукты","desc":"Продукты и пища","auth":"Little genius","cnt":15,"icon":{"name":"icons/RU_FOOD.jpg","size":1125,"date":"20130704084428"}
+},{"db":"RU_HOME","name":"RU - Дом","desc":"Дом","auth":"Little genius","cnt":12,"icon":{"name":"icons/RU_HOME.png","size":5484,"date":"20130704084202"}
+},{"db":"RU_HUMAN","name":"RU - Человеческое тело","desc":"Человеческое тело","auth":"Little genius","cnt":21,"icon":{"name":"icons/RU_HUMAN.png","size":5393,"date":"20130704084726"}
+},{"db":"RU_PLANTS","name":"RU - Растения","desc":"Растения","auth":"Little genius","cnt":10,"icon":{"name":"icons/RU_PLANTS.png","size":2634,"date":"20130704084948"}
+},{"db":"RU_SEASONS","name":"RU - Времена года","desc":"Времена года","auth":"Little genius","cnt":4,"icon":{"name":"icons/RU_SEASONS.jpg","size":2392,"date":"20130715191154"}
+},{"db":"RU_TRANSPORT","name":"RU - Транспорт","desc":"Картинки разных видов транспорта","auth":"Little genius","cnt":11,"icon":{"name":"icons/RU_TRANSPORT.jpg","size":3392,"date":"20130715184904"}
+}]
