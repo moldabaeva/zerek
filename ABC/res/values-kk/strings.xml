@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Zerek</string>
+    <string name="about_title">Бағдарлама туралы</string>
+
+    <string name="mn_share_app">Достарға хабарлау</string>
+    <string name="mn_rate">Бағдарламаны бағалау</string>
+    <string name="mn_about">Бағдарлама туралы</string>
+
+    <string name="mn_all">Барлық суреттер</string>
+
+    <string name="mn_exit">Шығу</string>
+    <string name="mn_pref">Баптаулар</string>
+
+    <string name="lang_title">Тілді таңданыз</string>
+    <string name="lang_summary">Әдепкі тілді таңданыз</string>
+
+    <!--Category-->
+    <string name="grp_sound">Дыбыстар</string>
+    <string name="grp_view">Бағдарлама көрінісі</string>
+
+    <string name="music_title">Бастапқы ән</string>
+    <string name="music_summary">Бастапқы әнді ойнау</string>
+
+    <string name="back_music_title">Бедерлі ән</string>
+    <string name="back_music_summary">Бедерлі әнді ойнау</string>
+
+    <string name="image_sound_title">Сурет дыбысы</string>
+    <string name="image_sound_summary">Суреттің дыбысың ойнау</string>
+
+    <string name="awake_title">Ұйқыға кетпеу</string>
+    <string name="awake_summary">Басты экрандарды өшірмеу</string>
+
+    <string-array name="tc_titles">
+        <item>Екі суреттен</item>
+        <item>Тізім</item>
+    </string-array>
+    <string name="tc_title">Бастапқы экран көрінісі</string>
+    <string name="tc_summary">Бастапқы экранның көрінісің реттеу</string>
+
+    <!--Slide show-->
+    <string-array name="ss_titles">
+        <item>3 секунд</item>
+        <item>5 секунд</item>
+        <item>10 секунд</item>
+        <item>15 секунд</item>
+    </string-array>
+    <string name="slide_title">Слайдшоу аралығы</string>
+    <string name="slide_summary">Суретерді көрсету аралығы</string>
+
+    <!--Theme-->
+    <string-array name="th_titles">
+        <item>Ақ</item>
+        <item>Қара</item>
+        <item>Ақ пен қара</item>
+    </string-array>
+
+    <string name="th_title">Әлпеті</string>
+    <string name="th_summary">Бағдарлама көрінісі</string>
+
+    <string name="mn_hide">Жасыру</string>
+    <string name="mn_show">Көрсету</string>
+    <string name="mn_delete">Жою</string>
+    <string name="mn_cancel">Жүктеуді болдырмау</string>
+    <string name="mn_download">Жүктеу</string>
+
+    <string name="alert_dialog_ok">Ok</string>
+    <string name="alert_dialog_cancel">Жоқ</string>
+
+    <string formatted="false" name="alert_hide">\'%s\' жасыру?</string>
+    <string formatted="false" name="alert_show">\'%s\' көрсету?</string>
+    <string formatted="false" name="alert_start_download">\'%s\' жүктеу?</string>
+    <string formatted="false" name="alert_delete_card">\'%s\' жою?</string>
+    <string formatted="false" name="info_download_comp">\'%s\' жүктеуі аяқталды.</string>
+
+    <string name="Card_Author">Авторы: %s</string>
+    <!--<string name="Card_Version">Нұсқа №%d</string>-->
+    <string name="Card_Uptodate">Жүктелген</string>
+    <string formatted="false" name="Card_New_Size">Жаңартулар көлемі %.2f MB</string>
+
+    <!--<string name="Error_Download">Жүктеу қателігі</string>-->
+    <string name="Error_Connect">Қосылу қателігі</string>
+    <!--<string name="Error_http">Интернетпен қосылу қателігі</string>-->
+    <!--<string name="Error_Insert">Қосу қатесі %s</string>-->
+    <!--<string formatted="false" name="Error_Delete">Жою қатесі %s саны = %d</string>-->
+
+    <!--<string name="crash_toast_text">Кешіріңіз бағдарламада қате пайда болды. Келесі хабарламаны жіберуді өтінеміз.</string>-->
+    <string name="mes_deleted">Жазу жойылды</string>
+    <string name="mes_canceled">Жүктеу тоқтатылды</string>
+    <string name="mes_arc_broken">Архив зақымдалған. Оны қайта жүтеңіз</string>
+</resources>

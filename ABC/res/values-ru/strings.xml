@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Zerek</string>
+    <string name="about_title">О программе</string>
+
+    <string name="mn_share_app">Рассказать друзьям</string>
+    <string name="mn_rate">Оценить программу</string>
+    <string name="mn_about">О программе</string>
+
+    <string name="mn_all">Все картинки</string>
+
+    <string name="mn_exit">Выйти</string>
+    <string name="mn_pref">Настройки</string>
+
+    <string name="lang_title">Выберите язык</string>
+    <string name="lang_summary">Язык по умолчанию</string>
+
+    <!--Category-->
+    <string name="grp_sound">Звуки</string>
+    <string name="grp_view">Вид</string>
+
+    <string name="music_title">Стартовая музыка</string>
+    <string name="music_summary">Включить стартовую музыку</string>
+
+    <string name="back_music_title">Фоновая музыка</string>
+    <string name="back_music_summary">Включить фоновую музыку</string>
+
+    <string name="image_sound_title">Звук картинки</string>
+    <string name="image_sound_summary">Включить звук картинки</string>
+
+    <string name="awake_title">Не засыпать</string>
+    <string name="awake_summary">Оставить главные экраны включенными</string>
+
+    <string-array name="tc_titles">
+        <item>По 2 плитки</item>
+        <item>Список</item>
+    </string-array>
+    <string name="tc_title">Вид первого экрана</string>
+    <string name="tc_summary">Настроить первый экран</string>
+
+    <!--Slide show-->
+    <string-array name="ss_titles">
+        <item>3 секунды</item>
+        <item>5 секунд</item>
+        <item>10 секунд</item>
+        <item>15 секунд</item>
+    </string-array>
+    <string name="slide_title">Интервал слайдшоу</string>
+    <string name="slide_summary">Количество секунд между картинками</string>
+
+    <!--Theme-->
+    <string-array name="th_titles">
+        <item>Светлая</item>
+        <item>Темная</item>
+        <item>Светло-темная</item>
+    </string-array>
+
+    <string name="th_title">Тема</string>
+    <string name="th_summary">Внешний вид программы</string>
+
+    <string name="mn_hide">Скрыть</string>
+    <string name="mn_show">Показать</string>
+    <string name="mn_delete">Удалить</string>
+    <string name="mn_cancel">Отменить загрузку</string>
+    <string name="mn_download">Загрузить</string>
+
+    <string name="alert_dialog_ok">Ok</string>
+    <string name="alert_dialog_cancel">Cancel</string>
+
+    <string formatted="false" name="alert_hide">Скрыть \'%s\'?</string>
+    <string formatted="false" name="alert_show">Показать \'%s\'?</string>
+    <string formatted="false" name="alert_start_download">Загрузить \'%s\'?</string>
+    <string formatted="false" name="alert_delete_card">Удалить \'%s\'?</string>
+    <string formatted="false" name="info_download_comp">Загрузка \'%s\' завершена.</string>
+
+    <string name="Card_Author">Автор: %s</string>
+    <!--<string name="Card_Version">Версия №%d</string>-->
+    <string name="Card_Uptodate">Загружено</string>
+    <string formatted="false" name="Card_New_Size">Размер обновлений %.2f MB</string>
+
+    <!--<string name="Error_Download">Ошибка закачки</string>-->
+    <string name="Error_Connect">Ошибка соединения</string>
+    <!--<string name="Error_http">Нет соединения с интернетом</string>-->
+    <!--<string name="Error_Insert">Ошибка при вставке %s</string>-->
+    <!--<string formatted="false" name="Error_Delete">Ошибка при удалении %s количество = %d</string>-->
+
+    <!--<string name="crash_toast_text">Ой. К сожалению, произошла ошибка. Пожалуйста, отправьте это письмо, и мы постараемся исправить как можно быстрее.</string>-->
+    <string name="mes_deleted">Запись удалена</string>
+    <string name="mes_canceled">Загрузка отменена</string>
+    <string name="mes_arc_broken">Архив поврежден. Пожалуйста, загрузите его снова</string>
+</resources>

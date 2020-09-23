@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_web_show" android:icon="@drawable/ic_show" android:title="@string/mn_show"
+          android:showAsAction="ifRoom|withText"/>
+    <item android:id="@+id/menu_web_hide" android:icon="@drawable/ic_hide" android:title="@string/mn_hide"
+          android:showAsAction="ifRoom|withText"/>
+    <item android:id="@+id/menu_web_delete" android:icon="@drawable/ic_delete" android:title="@string/mn_delete"
+          android:showAsAction="ifRoom|withText"/>
+    <item android:id="@+id/menu_web_cancel" android:icon="@drawable/ic_cancel" android:title="@string/mn_cancel"
+          android:showAsAction="ifRoom|withText"/>
+    <item android:id="@+id/menu_web_download" android:icon="@drawable/ic_download" android:title="@string/mn_download"
+          android:showAsAction="ifRoom|withText"/>
+</menu>

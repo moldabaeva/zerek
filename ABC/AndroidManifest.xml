@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.zerek.ABC"
+          android:versionCode="5"
+          android:versionName="0.3">
+    <uses-sdk android:minSdkVersion="5"
+              android:targetSdkVersion="16"/>
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+
+    <application android:icon="@drawable/about_icon"
+                 android:label="@string/app_name"
+                 android:configChanges="locale"
+                 android:uiOptions="splitActionBarWhenNarrow"
+                 android:debuggable="true">
+
+        <activity android:name="com.zerek.ABC.MainActivity"
+                  android:uiOptions="splitActionBarWhenNarrow"
+                  android:configChanges="locale"
+                  android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name="com.zerek.ABC.About" android:configChanges="locale" android:screenOrientation="portrait"
+                  android:theme="@android:style/Theme.Dialog">
+        </activity>
+
+        <activity android:name="com.zerek.ABC.SettingsActivity" android:configChanges="locale" android:screenOrientation="portrait">
+        </activity>
+
+        <activity android:name="com.zerek.ABC.Game04" android:configChanges="locale" android:screenOrientation="portrait"/>
+
+        <!--<activity android:name=".WebActivity" android:configChanges="locale"  android:screenOrientation="portrait" android:uiOptions="splitActionBarWhenNarrow"/>-->
+        <activity android:name="com.zerek.ABC.act.AllWebAct" android:configChanges="locale" android:screenOrientation="portrait" android:uiOptions="splitActionBarWhenNarrow"/>
+    </application>
+</manifest> 

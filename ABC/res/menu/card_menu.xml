@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/menu_compose" android:showAsAction="always">
+        <menu>
+            <item android:id="@+id/menu_share" android:title="@string/mn_share_app"/>
+            <item android:id="@+id/menu_rate" android:title="@string/mn_rate"/>
+            <item android:id="@+id/menu_about" android:title="@string/mn_about"/>
+        </menu>
+    </item>
+
+    <item android:showAsAction="always"
+          android:id="@+id/menu_all"
+          android:title="@string/mn_all"/>
+
+    <item android:id="@+id/menu_holo" android:showAsAction="always">
+
+        <menu>
+            <item android:id="@+id/menu_pref" android:title="@string/mn_pref"/>
+            <item android:id="@+id/menu_exit" android:title="@string/mn_exit"/>
+        </menu>
+
+    </item>
+</menu>

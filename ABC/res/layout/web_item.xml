@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+                xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <ImageView android:id="@+id/card_icon" android:layout_width="100.0dip" android:layout_height="100.0dip"
+               android:layout_margin="8.0dip" android:scaleType="centerCrop" android:layout_alignParentTop="true"/>
+    <ImageView android:id="@+id/card_hidden" android:layout_width="26.0dip" android:layout_height="26.0dip"
+               android:scaleType="centerCrop"
+               android:layout_alignLeft="@+id/card_new_vers" android:layout_below="@+id/card_new_vers"
+               android:src="@drawable/ic_hidden"/>
+    <ImageView android:id="@+id/card_new_vers" android:layout_width="24.0dip" android:layout_height="24.0dip"
+               android:scaleType="centerCrop" android:layout_alignRight="@+id/web_desc"
+               android:layout_alignTop="@+id/card_icon" android:src="@drawable/ic_new_vers"/>
+    <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="#ffaaaaaa"
+              android:id="@+id/web_desc" android:paddingBottom="5.0dip" android:layout_width="105dp"
+              android:layout_height="wrap_content"
+              android:layout_alignLeft="@+id/card_icon" android:layout_below="@+id/card_icon"
+              android:layout_alignRight="@+id/card_name" android:layout_alignBottom="@+id/card_bar"/>
+    <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="#ffff6600"
+              android:id="@+id/card_name" android:layout_width="fill_parent" android:layout_height="wrap_content"
+              android:layout_toRightOf="@id/card_icon" android:layout_alignTop="@id/card_icon"/>
+    <TextView android:textSize="14.0sp" android:textColor="#ff888888" android:id="@+id/card_auth"
+              android:layout_width="fill_parent" android:layout_height="wrap_content"
+              android:layout_toRightOf="@id/card_icon" android:layout_below="@id/card_name"/>
+    <TextView android:textSize="14.0sp" android:textColor="#ffaaaaaa" android:id="@+id/card_desc"
+              android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip"
+              android:maxLines="4" android:layout_toRightOf="@id/card_icon" android:layout_below="@id/card_auth"/>
+    <ProgressBar android:textSize="14.0sp" android:textColor="#ff536b85" android:id="@+id/card_bar"
+                 android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="25dp"
+                 android:progressDrawable="@android:drawable/progress_horizontal"
+                 android:indeterminate="false"
+                 android:indeterminateOnly="false"
+                 android:visibility="invisible"
+                 android:max="100"
+                 android:layout_alignParentLeft="true" android:layout_below="@+id/card_icon"/>
+</RelativeLayout>

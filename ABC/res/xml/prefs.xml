@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+            android:key="lang"
+            android:title="@string/lang_title"
+            android:summary="@string/lang_summary"
+
+            android:entries="@array/lang_titles"
+            android:entryValues="@array/lang_keys"/>
+
+    <PreferenceCategory android:title="@string/grp_sound">
+
+        <CheckBoxPreference
+                android:key="music"
+                android:title="@string/music_title"
+                android:summary="@string/music_summary"
+                android:defaultValue="true"/>
+
+        <CheckBoxPreference
+                android:key="back_music"
+                android:title="@string/back_music_title"
+                android:summary="@string/back_music_summary"
+                android:defaultValue="true"/>
+
+        <CheckBoxPreference
+                android:key="img_sound"
+                android:title="@string/image_sound_title"
+                android:summary="@string/image_sound_summary"
+                android:defaultValue="true"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/grp_view">
+        <CheckBoxPreference
+                android:key="awake"
+                android:title="@string/awake_title"
+                android:summary="@string/awake_summary"
+                android:defaultValue="true"/>
+
+        <ListPreference
+                android:key="tile_cnt"
+                android:title="@string/tc_title"
+                android:summary="@string/tc_summary"
+
+                android:entries="@array/tc_titles"
+                android:entryValues="@array/tc_keys"
+
+                android:defaultValue="2"/>
+
+        <ListPreference
+                android:key="slide_int"
+                android:title="@string/slide_title"
+                android:summary="@string/slide_summary"
+
+                android:entries="@array/ss_titles"
+                android:entryValues="@array/ss_keys"
+
+                android:defaultValue="3"/>
+
+        <ListPreference
+                android:key="theme"
+                android:title="@string/th_title"
+                android:summary="@string/th_summary"
+
+                android:entries="@array/th_titles"
+                android:entryValues="@array/th_keys"
+                android:defaultValue="0"/>
+    </PreferenceCategory>
+</PreferenceScreen>
